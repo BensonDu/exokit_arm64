@@ -1,0 +1,2257 @@
+[33mcommit 84884a1d576da8c011b2029ec2a26aaf5fe128a9[m
+Author: clator <me@me.com>
+Date:   Tue Jul 31 03:44:40 2018 +0000
+
+    added ifdef for OPENVR
+
+[33mcommit 5693336ef3df63ec3791420c2ef455066302084e[m
+Author: clator <me@me.com>
+Date:   Tue Jul 31 03:44:22 2018 +0000
+
+    added ndk lib; added OPENVR; changed lib dir for arm64
+
+[33mcommit 801741e25319eed30442023fb9ab873d4f55604e[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 30 16:50:49 2018 -0400
+
+    Bump native-graphics-deps version
+
+[33mcommit 8b9799cafd6fb001bd6b486842c9096b87f457ae[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 30 05:06:55 2018 -0400
+
+    Bump native-canvas-deps version
+
+[33mcommit 6657e4f07faa19125ae293d48605375f72e5fbfc[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 30 04:29:11 2018 -0400
+
+    Update native deps for arm64 compatibility
+
+[33mcommit 432ff13a7569d0426472038bd9823f8b7972f8fb[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 30 04:27:37 2018 -0400
+
+    Bump native-canvas-deps version
+
+[33mcommit acf3bffa76e5abac61425d2aef0084f65be900b5[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 30 03:51:40 2018 -0400
+
+    Bump native-canvas-deps version
+
+[33mcommit f36849bfbc67c17d265242ffed7c05e9286aed9f[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 30 03:41:05 2018 -0400
+
+    Bump native-canvas-deps version
+
+[33mcommit dd8f46523cc8457e0aed8192a135dc3ac1e4936e[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 30 03:32:59 2018 -0400
+
+    Bump native-canvas-deps version
+
+[33mcommit abfa84429bd897a22f7eb96ced1c85605f4d51ad[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 30 03:10:07 2018 -0400
+
+    Bugfixing linux arch expansion
+
+[33mcommit 87490ed6617492bc54382d7acdddc44be0a50696[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 30 02:48:52 2018 -0400
+
+    Add initial linux arch=arm64 in binding.gyp
+
+[33mcommit 4f302352da96dc0252ca11c71d90c43d63793578[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 30 02:43:40 2018 -0400
+
+    Bump native-canvas-deps version
+
+[33mcommit ea69d683ab57e106fbb17e75ba0f5f995938a1ef[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 29 06:21:32 2018 -0400
+
+    0.0.418
+
+[33mcommit 60542d97a1c4376b2003c276081c7cc90036c0e0[m
+Merge: a840085 0dc5d1e
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 29 06:06:09 2018 -0400
+
+    Merge pull request #266 from webmixedreality/ext-frag-depth
+    
+    Add EXT_frag_depth extension
+
+[33mcommit a840085d41d1cf568724c4793c5662ad4708790b[m
+Merge: e6af91a 2dce7bc
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 29 06:05:57 2018 -0400
+
+    Merge pull request #265 from webmixedreality/uniform-null
+    
+    Return null on gl.getUniformLocation not found
+
+[33mcommit e6af91a44fa32afb6ae16951d8c83d4e6c05e552[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 29 06:03:51 2018 -0400
+
+    0.0.417
+
+[33mcommit 546e86cc4d1798f3d19f4517dc7c34d7e2c5bdc0[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 29 06:03:20 2018 -0400
+
+    Bump webgl-to-opengl version
+
+[33mcommit 55ed9a32895548482414f576a375a8ea39c5b4d5[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 29 05:54:59 2018 -0400
+
+    0.0.416
+
+[33mcommit d2db643490edccea52406c73da01a2e7aef6b8df[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 29 05:53:35 2018 -0400
+
+    Bump webgl-to-opengl version
+
+[33mcommit 0dc5d1ee23b6d7c1fef70247fb810a6e141b4978[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 29 05:05:08 2018 -0400
+
+    Add EXT_frag_depth extension
+
+[33mcommit 762b11011098602bcc1eca3b43131e1762dab6b8[m
+Merge: 160fc58 48874d7
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 29 05:00:29 2018 -0400
+
+    Merge pull request #261 from michaeltheory/master
+    
+    Added `WEBGL_debug_renderer_info` to `getExtension`
+
+[33mcommit 2dce7bcf722c88f2b2ff11a55ece6ed0939364e3[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 29 05:00:03 2018 -0400
+
+    Return null on gl.getUniformLocation not found
+
+[33mcommit 48874d7815cfba84b72c415f28ca8582b911d10a[m
+Author: Michael Anthony <michael@activetheory.net>
+Date:   Sat Jul 28 19:53:31 2018 -0700
+
+    Added GL_VENDOR and fixed the enum for renderer
+
+[33mcommit 094ddce1216743f9fb01c5c906e0a360361f0b62[m
+Author: Michael Anthony <michael@activetheory.net>
+Date:   Sat Jul 28 19:48:46 2018 -0700
+
+    Added `WEBGL_debug_renderer_info` to `getExtension`
+
+[33mcommit 160fc58c0003389745e7ef77405dd5571214217e[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 28 22:12:03 2018 -0400
+
+    0.0.415
+
+[33mcommit 9fd8d3682b2692a9cf454c8142c73261b3065f77[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 28 22:10:14 2018 -0400
+
+    Bugfix HTMLLinkElement rel setter typo
+
+[33mcommit c7396ea998a7c4b7f32faeb44528b9e3cb44eb2d[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 28 01:38:50 2018 -0400
+
+    0.0.414
+
+[33mcommit a555d4e4eb1b1f880756199a7aa64996a0c06d81[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 28 01:34:44 2018 -0400
+
+    Bump fault-zone version
+
+[33mcommit a3a6bbc8a4c7a9e834814f3456ae4ce857a499ae[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 28 01:10:35 2018 -0400
+
+    Bump fault-zone version
+
+[33mcommit c8034b72bd623c81b34d15994484f386afb8a18b[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 27 20:56:20 2018 -0400
+
+    0.0.413
+
+[33mcommit 645f6c411cb7c7b5230aa27eba584a214070b1ed[m
+Merge: d730f8b 407a5fd
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 27 20:37:17 2018 -0400
+
+    Merge pull request #257 from webmixedreality/fps-uncapped
+    
+    Add uncapped FPS command line flag
+
+[33mcommit 407a5fdd6098bdb6812f88a3f7d3487c814885b2[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 27 20:26:27 2018 -0400
+
+    Add uncapped FPS command line flag
+
+[33mcommit d730f8b028710f8e0c27098a908394b634bf0e62[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 27 19:31:06 2018 -0400
+
+    0.0.412
+
+[33mcommit b283fb81c05ef392d502d4f3ddc66b439fef9b3e[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 27 03:06:34 2018 -0400
+
+    0.0.411
+
+[33mcommit ba7fc20349bcc61b710e340a58de2ff14d84dec2[m
+Merge: 31e03cb 02a4e99
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 27 03:06:13 2018 -0400
+
+    Merge pull request #256 from webmixedreality/auto-go
+    
+    Auto go command
+
+[33mcommit 02a4e99e42fc4e5e112e2827a3ce77952bb82da0[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 27 02:29:24 2018 -0400
+
+    Support arbitrary protocols in auto go command
+
+[33mcommit cbe42c9defd3cd7a025ce9d93325d814e4722da9[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 27 02:24:08 2018 -0400
+
+    Remove old manual go command
+
+[33mcommit 67fe22282cc034b7b0c69ca624e2a78cece8df6b[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 27 02:24:01 2018 -0400
+
+    Bugfix new auto-go command typo
+
+[33mcommit 0f4a8b8752ccc6d7556fcc3d30cc0877c85700d9[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 27 02:21:28 2018 -0400
+
+    Add initial auto-go command support in CLI
+
+[33mcommit 31e03cb6a1df122c19734678881ce9da98842773[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Thu Jul 26 21:20:57 2018 -0400
+
+    0.0.410
+
+[33mcommit 949041f83ce9218ff8d9c03eefbd575b2d5c8ef5[m
+Merge: 1288fd2 3db934f
+Author: Avaer Kazmer <a@modules.io>
+Date:   Thu Jul 26 21:20:38 2018 -0400
+
+    Merge pull request #254 from webmixedreality/set-interval
+    
+    setInterval regressions
+
+[33mcommit 1288fd2a20dd57c1a243d2edb8cafe48c476f6b4[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Thu Jul 26 21:08:28 2018 -0400
+
+    0.0.409
+
+[33mcommit 3db934f7711db7a3677deaa7881b1cb1c2ed2df9[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Thu Jul 26 20:39:21 2018 -0400
+
+    clearTimeout of bindWindow loop on window destroy
+
+[33mcommit 9af004bf119c86b065650ee9210b9b18b3c73307[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Thu Jul 26 20:39:10 2018 -0400
+
+    Use setTimeout for bindWindow loop bootstrap
+
+[33mcommit 6d354c7300294262996d00fc238508d36d4a0478[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Thu Jul 26 20:30:35 2018 -0400
+
+    Add window destroy predicate null check
+
+[33mcommit 2692ac64c35a8b865c7a6bb9d15c00e68838db18[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Thu Jul 26 20:30:08 2018 -0400
+
+    Destroy windows when done timer tests
+
+[33mcommit e7a77d88a5a705fa4fdab1bc2b920d4e4f691a02[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Thu Jul 26 20:21:56 2018 -0400
+
+    Bugfix cancelAnimationFrame index lookup
+
+[33mcommit 52db11ec601e07b91ac6375dde5a4f460dff2b8e[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Thu Jul 26 20:21:46 2018 -0400
+
+    Timer tests bugfixing
+
+[33mcommit 0ceee1e312e57d6fe75c1bd85931e8c5dd41166e[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Thu Jul 26 20:21:30 2018 -0400
+
+    Add proper window load for timer tests
+
+[33mcommit df04192f23c36c2152315c64855a48bfb2def5a8[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Thu Jul 26 20:12:59 2018 -0400
+
+    Do not pass zeroes to requestAnimationFrame tests
+
+[33mcommit d1c8b1ff2059bd9435a1aceaa86f91a54ce643ee[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Thu Jul 26 19:24:03 2018 -0400
+
+    Add initial timer tests
+
+[33mcommit 3c73e2f5d327c2aef3da5a6807f7f55d326d8b0c[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Thu Jul 26 18:36:00 2018 -0400
+
+    Bugfix setInterval handling typo
+
+[33mcommit 71349ecf522de29a8a4360bd2b653c6287e23add[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Thu Jul 26 18:35:52 2018 -0400
+
+    Do not remove interval from intervals set on callback
+
+[33mcommit d9921e0fabecedd407f7db71a26e15d04c862aa4[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Thu Jul 26 18:35:32 2018 -0400
+
+    Bugfix setInterval not latching interval function
+
+[33mcommit 52f3157679f9c52cbc4945367211e8449b485e16[m
+Merge: 6739447 7dd422d
+Author: Avaer Kazmer <a@modules.io>
+Date:   Thu Jul 26 20:11:57 2018 -0400
+
+    Merge pull request #255 from webmixedreality/load-url
+    
+    Do not replace exokit.load url unless no protocol
+
+[33mcommit 7dd422d6874e6ac368e25d0dada96e44436bb529[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Thu Jul 26 20:10:33 2018 -0400
+
+    Do not replace exokit.load url unless no protocol
+
+[33mcommit 67394476486df7139959e16d74dc8a29d2a6139a[m
+Merge: 59f945c b61f188
+Author: Avaer Kazmer <a@modules.io>
+Date:   Thu Jul 26 16:17:30 2018 -0400
+
+    Merge pull request #251 from webmixedreality/logfile
+    
+    Add logfile support
+
+[33mcommit b61f1883a02caec4c1017bdbfd658b76a4ffc30e[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 24 17:05:55 2018 -0400
+
+    Add default -l argument for windows/macos launchers
+
+[33mcommit 6e10d51de191afee32924486a35e381ffe5a4baf[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 24 16:58:39 2018 -0400
+
+    Add logfile support
+
+[33mcommit 59f945ca1d6a08b970d38850774b5aeee2ec6b12[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 24 00:16:25 2018 -0400
+
+    0.0.408
+
+[33mcommit c1f5ce2d7a6e0304eb5dd52e1a958d3b35c52314[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 23 23:31:52 2018 -0400
+
+    Update LICENSE.md reference in exokit.iss
+
+[33mcommit 316649403c871c20694c967dbb6b22954e2d95e8[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 23 16:18:39 2018 -0400
+
+    0.0.407
+
+[33mcommit afc37b46edc79cf23c22682ce80c16a1c9e4edb6[m
+Merge: 9b1e60c 1f2c903
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 23 16:18:15 2018 -0400
+
+    Merge pull request #248 from webmixedreality/webgl2-readpixels
+    
+    Add WebGL2 readPixels
+
+[33mcommit 1f2c9039eac8673ab5da69885b4f72c70d45c8b0[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 23 14:51:22 2018 -0400
+
+    Add WebGL2 readPixels arguments formats support
+
+[33mcommit 9b1e60ce0fe876c9a69938e0ab4c3e02c823d1b2[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 21 11:39:26 2018 -0400
+
+    0.0.406
+
+[33mcommit 30dae71dede75bb74e6fd81d67bc0d0f0c542433[m
+Merge: b9edc0f 7852dda
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 21 11:39:12 2018 -0400
+
+    Merge pull request #247 from webmixedreality/ws-upgrade
+    
+    Upgrade ws module to 6.0.0
+
+[33mcommit 7852dda6a37f387f7db9e4fdc5ded2f1f538da33[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 21 11:37:56 2018 -0400
+
+    Upgrade ws module to 6.0.0
+
+[33mcommit b9edc0f4c4318f06f564c27233661ecb0acb223a[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 21 11:37:33 2018 -0400
+
+    Bump window-worker version
+
+[33mcommit f2f39386df46e0e7df7898466ac2c8412511b88c[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 21 09:41:33 2018 -0400
+
+    0.0.405
+
+[33mcommit 378220ebd794788c6e4e4eb5e05380a4687eaad2[m
+Merge: 245409c ba45cb1
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 21 09:40:08 2018 -0400
+
+    Merge pull request #245 from webmixedreality/serve-examples
+    
+    serve instead of live-server for examples
+
+[33mcommit ba45cb199546067983bf3040b2b48fb044ba0195[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 21 09:38:57 2018 -0400
+
+    Use serve instead of live-server for serving examples
+
+[33mcommit 245409c446e76fff9bb869bc4df649309167d2ec[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 21 09:23:54 2018 -0400
+
+    0.0.404
+
+[33mcommit b43dd54f5ea49fad432d73906ca02f58d19003f8[m
+Merge: baaf1ef 4226f27
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 21 09:22:48 2018 -0400
+
+    Merge pull request #244 from webmixedreality/file-reader
+    
+    Bugfix FileReader load events to be actual Events
+
+[33mcommit baaf1ef373112f3f2a3e0a18f1d7df63b3da6795[m
+Merge: ccf4106 7dbfdeb
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 21 09:22:38 2018 -0400
+
+    Merge pull request #243 from webmixedreality/window-worker-update
+    
+    Worker fixes
+
+[33mcommit ccf4106172d9e9c74f8a637cc4a8fa7511bbecd0[m
+Merge: 6cad043 3abd2fb
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 21 09:21:11 2018 -0400
+
+    Merge pull request #242 from webmixedreality/pj-update
+    
+    Minor package.json update
+
+[33mcommit 7dbfdebda30b48e3cf9446fd48db6018769e5640[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 21 09:17:06 2018 -0400
+
+    Clean up worker startScript closure
+
+[33mcommit 104dceb2c6efb4447faf475dbc5852065b161019[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 21 09:16:47 2018 -0400
+
+    Remove dead Worker baseUrl option
+
+[33mcommit 83ac17ee30631dbe3f7d826e8e6f1dad993b7f8a[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 21 09:16:34 2018 -0400
+
+    Do not make a pointless nativeWorker stub class
+
+[33mcommit 4226f27f2114c8cc83ed55e1fa46492bfff10c6a[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 21 09:13:44 2018 -0400
+
+    Bugfix FileReader load events to be actual Events
+
+[33mcommit 1de7d3a399d7be6d166cf301740214f842f31a01[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 21 09:09:08 2018 -0400
+
+    Update window-worker module in package.json
+
+[33mcommit 3abd2fbd409ddb9be02027b8e1400f0a928cb8f8[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 21 09:08:15 2018 -0400
+
+    Minor package.json update
+
+[33mcommit 6cad04352dd31b700e7275e8258e513914160e57[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 21 05:04:35 2018 -0400
+
+    0.0.403
+
+[33mcommit 34d1e244e238cb9fc8971849865de7ed08772d1f[m
+Merge: fd2ea23 54ea15b
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 21 05:04:25 2018 -0400
+
+    Merge pull request #239 from webmixedreality/webgl-flag
+    
+    Add WebGL version flag
+
+[33mcommit 54ea15ba0f942af71d20b8b8333e932e792f768d[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 21 04:51:07 2018 -0400
+
+    Initialize GlobalContext args and version in core.js
+
+[33mcommit b51630dc35b481ce919ef9429300576ed917eb01[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 21 04:03:37 2018 -0400
+
+    Hook in WebGL flag checking in context creation
+
+[33mcommit dd0e8ec5bb7887ea65a4751d6e0a7e2f66c32f9f[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 21 04:03:08 2018 -0400
+
+    Add webgl/w flag schema
+
+[33mcommit 1d279361b60831ac57d6b82961b0b49368ff5953[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 21 04:02:07 2018 -0400
+
+    Move args and version from core closure to GlobalContext
+
+[33mcommit fd2ea23b969f877d87abd0759622daff7e56705e[m
+Merge: cb036a6 506516d
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 21 04:46:07 2018 -0400
+
+    Merge pull request #240 from webmixedreality/timeout-defaults
+    
+    Add rAF/timeout/interval defaults
+
+[33mcommit 506516d828f9e5b146bbb5836165b1ab64cb9195[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 21 04:12:58 2018 -0400
+
+    Default setInterval arguments per spec
+
+[33mcommit 884428ec27f581da5c2a7487a706ef2bf2357047[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 21 04:12:47 2018 -0400
+
+    Add default setTimeout arguments
+
+[33mcommit c16ae371b441f3869a74e48c631bbfdca3f7a20c[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 21 04:12:32 2018 -0400
+
+    Bind requestAnimationFrame callback to window
+
+[33mcommit cb036a6fd9b4e95db1e5eefc03ef940988035ca8[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 20 16:12:48 2018 -0400
+
+    0.0.402
+
+[33mcommit 40dd8988638dd507c9874cce5ae485cd85e987a3[m
+Merge: 7feaf9a 1b80ebc
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 21 01:49:40 2018 -0400
+
+    Merge pull request #238 from webmixedreality/raf-chain
+    
+    Bugfix requestAnimationFrame chaining
+
+[33mcommit 1b80ebc326494834efb55cd3602fa3914dbcece9[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 20 16:01:52 2018 -0400
+
+    Bugfix rafs cleanup sorting case
+
+[33mcommit d38be0c4dda9eef3392ded6dc9352ad1f6c287dd[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 20 15:51:16 2018 -0400
+
+    Samll commenting cleanup
+
+[33mcommit d85986150c0e8d24372c87a14bda2058c1f565cd[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 20 15:50:38 2018 -0400
+
+    Bugfix requestAnimationFrame and timeout chains trigerred by recursion
+
+[33mcommit 7feaf9ac9733bf07bf3ed820a1c42ecccaf59e34[m
+Merge: 9ba83ed 8060326
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 20 12:19:44 2018 -0400
+
+    Merge pull request #237 from shawwn/2018-07-20/fix-example
+    
+    Fix terminal example
+
+[33mcommit 8060326012ac14e087acb719e874456564374513[m
+Author: Shawn Presser <shawnpresser@gmail.com>
+Date:   Fri Jul 20 10:56:28 2018 -0500
+
+    Fix terminal example
+
+[33mcommit 9ba83ed2d8f66560a46ff128ab5319b362bc084b[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 20 05:21:54 2018 -0400
+
+    0.0.401
+
+[33mcommit fedd668dc7ce87b435a6b4f22ab6c33ea98cc201[m
+Merge: a935348 4f61a35
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 20 03:12:45 2018 -0400
+
+    Merge pull request #236 from webmixedreality/raf-sort
+    
+    Add null check to requestAnimationFrame sorting
+
+[33mcommit 4f61a35844a1c41299421c71e61452039327e403[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 20 03:07:45 2018 -0400
+
+    Add null check to requestAnimationFrame sorting
+
+[33mcommit a93534812542e0f244162c51510496c26919fac6[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 20 00:12:19 2018 -0400
+
+    Update discord invite
+
+[33mcommit eeb210bee974c8f75fa2b5b9473700216daa53dc[m
+Merge: 7d99979 144b128
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 18 23:27:41 2018 -0400
+
+    Merge pull request #234 from shawwn/2018-07-18/rename-examples
+    
+    Rename examples
+
+[33mcommit 144b12881313b7faaeb2f483b5cd98632438b6e8[m
+Author: Shawn Presser <shawnpresser@gmail.com>
+Date:   Wed Jul 18 22:04:56 2018 -0500
+
+    Rename examples
+
+[33mcommit 7d999799454aa016e24962794ba33e7b9c10b0b2[m
+Merge: 7d74f7f fd057ce
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 18 23:00:52 2018 -0400
+
+    Merge pull request #233 from shawwn/2018-07-18/examples
+    
+    Add `npm run serve`; add renderToCanvas and xterm.js examples
+
+[33mcommit fd057ceff5ed58dd95cf3de6dfbce5846db4ed53[m
+Author: Shawn Presser <shawnpresser@gmail.com>
+Date:   Wed Jul 18 21:34:22 2018 -0500
+
+    Add xterm.js example
+
+[33mcommit 3c38de2df9fdc4cdd64c9e619dd7226977f56f8a[m
+Author: Shawn Presser <shawnpresser@gmail.com>
+Date:   Wed Jul 18 21:03:55 2018 -0500
+
+    Rename canvastexture example to rendertocanvas
+
+[33mcommit 961c89fa8ecffec04dec76b69089402abc9e5f57[m
+Author: Shawn Presser <shawnpresser@gmail.com>
+Date:   Wed Jul 18 20:54:34 2018 -0500
+
+    Add examples/004_canvastexture.html
+
+[33mcommit 7d74f7fd7e1639bdc50764af0d822d9c7cd10eba[m
+Merge: 8bb12d9 3c86aa5
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 18 21:54:16 2018 -0400
+
+    Merge pull request #232 from shawwn/patch-2
+    
+    Delete duplicate LICENSE file
+
+[33mcommit aa7aaf94d946db26fc1e6fab7a1b90bdf072c675[m
+Author: Shawn Presser <shawnpresser@gmail.com>
+Date:   Wed Jul 18 20:54:01 2018 -0500
+
+    Add `npm run serve` script to serve examples
+
+[33mcommit 3c86aa5cff1f37dee7fb3383069a880ff2308dec[m
+Author: Shawn Presser <shawnpresser@gmail.com>
+Date:   Wed Jul 18 20:46:37 2018 -0500
+
+    Delete duplicate LICENSE file
+
+[33mcommit 8bb12d916e854b5ad20f0dcfcde42e105c4cc166[m
+Merge: e39d73b 927395c
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 18 21:44:13 2018 -0400
+
+    Merge pull request #231 from shawwn/2018-07-18/patch
+    
+    Minor tweaks to package.json
+
+[33mcommit 927395ccb3569063b9efd0e6d798d05434e8ca44[m
+Author: Shawn Presser <shawnpresser@gmail.com>
+Date:   Wed Jul 18 20:42:32 2018 -0500
+
+    Minor tweaks to package.json
+
+[33mcommit e39d73b97edcfc2a7b45097998884368c00d796c[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 17 08:03:03 2018 -0400
+
+    0.0.400
+
+[33mcommit 61bdc8efcd91a5c801b2b3ad2645c84fcf2ef772[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 17 08:02:55 2018 -0400
+
+    0.0.399
+
+[33mcommit ff1fa36755edcb570dd585923190520df7da6c71[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 17 08:01:33 2018 -0400
+
+    Chris La Torres to contributors
+
+[33mcommit 5eabd8fdafcbd8275b98151d056ee8bb3202054a[m
+Merge: a928952 141be29
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 17 07:56:57 2018 -0400
+
+    Merge pull request #230 from webmixedreality/datapath
+    
+    Keep dataPath across window navigation
+
+[33mcommit 141be29860ecd64100dd81f74dfaea8385b8d9b4[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 16 03:50:58 2018 -0400
+
+    Keep dataPath across window navigation
+
+[33mcommit a928952bab18dd1ca6973d6c6b626fd368d4b75d[m
+Merge: fff308d 9417886
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 16 00:07:48 2018 -0400
+
+    Merge pull request #228 from webmixedreality/webgl2-uniforms
+    
+    WebGL2 garbage-free vector uniforms
+
+[33mcommit 9417886fdd896963488e7b3c6c48aba6190b5a63[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 15 21:38:11 2018 -0400
+
+    Add new WebGL2 vector unifroms garbage-free format
+
+[33mcommit d9447fbdf73a3e51805c125a11b176aefdcc1497[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 15 21:37:17 2018 -0400
+
+    Spacing cleanup
+
+[33mcommit aafe2a7109879235bebfa3aa544344d89b31bde0[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 15 16:40:49 2018 -0400
+
+    Remove package-lock.json
+
+[33mcommit 9614c6558443fca998c09fe91660443a49ee3fbe[m
+Merge: a5d98df 4ba1581
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 15 16:40:22 2018 -0400
+
+    Merge pull request #227 from webmixedreality/dependencies
+    
+    Update package.json dependencies
+
+[33mcommit a5d98dffb0770dc0132ed79e0a424fc984e5631a[m
+Merge: 3a76760 8aca8b2
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 15 16:39:53 2018 -0400
+
+    Merge pull request #226 from webmixedreality/postmessage
+    
+    postMessage async
+
+[33mcommit fff308d2c04f78739c93b35130d8b49c4a83d679[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 15 07:51:19 2018 -0400
+
+    0.0.398
+
+[33mcommit 3a767603ece8e3f0b6e485925f6f8b5b7df580b5[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 15 07:44:26 2018 -0400
+
+    0.0.397
+
+[33mcommit 4ba15815aa4ea934a80e21a9b15eabe73ec0870f[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 15 07:37:54 2018 -0400
+
+    Update package.json dependencies
+
+[33mcommit 8aca8b2b6fecd1e2e8a36a0973eeba1e6a4cd43a[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 15 07:29:51 2018 -0400
+
+    Asynchronize window.postMessage behind setImmediate
+
+[33mcommit 1f6ddab281dbd013c041e0c8f25b52fd8e6df878[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 15 07:29:26 2018 -0400
+
+    Bind window.postMessage to window
+
+[33mcommit a899601dd8132ce8f5a7d0f48697d7635dc3841c[m
+Merge: d39707f 639e05c
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 14 23:25:40 2018 -0400
+
+    Merge pull request #224 from webmixedreality/set-timeout
+    
+    Capture setTimeout/setInterval
+
+[33mcommit d39707f9f4879def60f21c15dd4a494fa0d75679[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 13 18:51:59 2018 -0400
+
+    0.0.396
+
+[33mcommit 04231523f0506ffb3c8b6efb83f12510b8d82f8e[m
+Merge: 053c9c4 01f9221
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 13 18:40:39 2018 -0400
+
+    Merge pull request #222 from webmixedreality/noglobal
+    
+    Remove some node globals from window exposure
+
+[33mcommit 053c9c4c831cb3745fc806023573b5c29df3bdf3[m
+Merge: b893091 d7ebcf8
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 13 18:39:59 2018 -0400
+
+    Merge pull request #225 from webmixedreality/node-10.6.0
+    
+    Update CI to node 10.6.0
+
+[33mcommit 639e05cbaccc17bac1e9f3a7353948918e868ca2[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 13 18:31:47 2018 -0400
+
+    Make rafs, timeouts, and intervals iteration garbage-free in the mainloop
+
+[33mcommit d7ebcf8bc31e48be7d24eb4e5bbd12ec37cbb027[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 13 16:36:55 2018 -0400
+
+    Update CI to node 10.6.0
+
+[33mcommit 44e1e38cf237960d41c0bfcaecfc590d79d8c635[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 13 16:31:31 2018 -0400
+
+    Clean up timeouts and intervals on window destroy
+
+[33mcommit f061c1bfac5350dc226d87483b93f32fb362cd1d[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 13 16:29:46 2018 -0400
+
+    Locally track timeouts and intervals in tickAnimationFrame
+
+[33mcommit 88ec82f0cb3fef15ed95a683a12686fc1fed8143[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 13 16:29:10 2018 -0400
+
+    Use index number for requestAnimationFrame result
+
+[33mcommit 546469a8ccee91730b58f501492033efd47408a6[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 13 16:28:21 2018 -0400
+
+    Small tickAnimationFrame cleanup
+
+[33mcommit 3449cf73bf3d6b7a2dacab207ff895fd95c1e322[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 13 16:27:42 2018 -0400
+
+    Mow windowSymbol
+
+[33mcommit 4f66c02b934b8598160833ece4f53999794d83eb[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 13 16:27:25 2018 -0400
+
+    Small commenting cleanup
+
+[33mcommit 01f9221b9fdfec72f00df0ec30e3bdde671ef564[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 13 14:55:38 2018 -0400
+
+    Remove some node globals from window exposure
+
+[33mcommit b89309146d6520d0e60a6438687578bcc8cf05ac[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 11 20:43:57 2018 -0400
+
+    0.0.395
+
+[33mcommit eb0c8b2a258a5f54a52223bbcc26f99c7f932724[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 11 20:41:04 2018 -0400
+
+    0.0.394
+
+[33mcommit f1152e804a7c341d51d850e56399386e800733ed[m
+Merge: 80ab800 60e7d01
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 11 20:40:50 2018 -0400
+
+    Merge pull request #220 from webmixedreality/gl2-bufferdata
+    
+    Add WebGL2 bufferData garbage-free
+
+[33mcommit 60e7d017647a136b6c9db094adcf7e80523db1df[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 11 20:11:51 2018 -0400
+
+    Add WebGL2 bufferData arguments overload
+
+[33mcommit 1ef4cc48c3e82bcd1d646f786ead70f04c505005[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 11 20:10:33 2018 -0400
+
+    Clean up buferSubData invalid arguments throw
+
+[33mcommit 80ab800b663e1f3996ad2fc849e084a2e8b25e39[m
+Merge: 133d06f c640b86
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 11 15:15:54 2018 -0400
+
+    Merge pull request #217 from webmixedreality/matrix-methods
+    
+    WebGL2 garbage-free uniforms setters
+
+[33mcommit c640b8690f6298c1157c6513227d5003ae417bfa[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 11 15:15:06 2018 -0400
+
+    Small spacing cleanup
+
+[33mcommit 133d06fb382a249d227ab82a8d98d27c14513ee2[m
+Merge: dc9b3c8 9d98df0
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 11 15:12:31 2018 -0400
+
+    Merge pull request #216 from webmixedreality/vao
+    
+    Default VAO zero
+
+[33mcommit dc9b3c8ddeea0e65e3a3a387104ac12754a6c7e1[m
+Merge: 793eb49 cf4a68f
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 11 13:44:56 2018 -0400
+
+    Merge pull request #212 from ngokevin/mutationobserver
+    
+    unit test mutation observer (fixes #183)
+
+[33mcommit cf4a68f7cc87f851ab370333661d1b5e5f151a73[m
+Author: Kevin Ngo <me@ngokevin.com>
+Date:   Wed Jul 11 01:49:44 2018 -0700
+
+    make mutation observer correct, revert previous changes that were not accurate
+
+[33mcommit 2d97bc5752656c9762b37f2188e10ac9e3dac04e[m
+Author: Kevin Ngo <me@ngokevin.com>
+Date:   Fri Jul 6 03:32:00 2018 -0700
+
+    unit test and fix mutation observer cases (fixes #183)
+
+[33mcommit 53eff14435baa03f898670288bfe6b32e14a5ee8[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 11 04:30:04 2018 -0400
+
+    Add WebGL2 garbage-less uniforms setters
+
+[33mcommit 9d98df0cfcc0ca424e0d2ea40bf6968908446e0a[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 11 03:54:17 2018 -0400
+
+    Set gl default VAO on context create
+
+[33mcommit ba2593a2d1623a6311e38fa7696c97f1442d5b1c[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 11 03:53:52 2018 -0400
+
+    MAke WebGL bindVertexArray respect default vao
+
+[33mcommit 183a611bba371358651ec61a8d2ee127721f1fba[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 11 03:53:35 2018 -0400
+
+    Add WebGL SetDefaultVao method
+
+[33mcommit f0604cccea66c768ffb7c5062ec9365b4848e8f0[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 11 03:48:31 2018 -0400
+
+    Clean up webgl.cc initalizer list
+
+[33mcommit dce2d58cb179176499fdfdbf6e904ed0bd31d5eb[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 11 03:45:04 2018 -0400
+
+    Export default VAO from nativeWindow.Create
+
+[33mcommit 793eb4919792709c21e43a1e3adcc43c6e52a4ed[m
+Merge: 489e19a d2e15b3
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 10 18:30:26 2018 -0400
+
+    Merge pull request #215 from shawwn/2018-07-10/fix-args-image
+    
+    Fix args.image
+
+[33mcommit d2e15b3bb0c038d00904c37f13ec4b850b7216d3[m
+Author: Shawn Presser <shawnpresser@gmail.com>
+Date:   Tue Jul 10 17:29:35 2018 -0500
+
+    Rename _timeout to _takeScreenshot
+
+[33mcommit 1f5d6ebdda63680be7967cb8d0420bf874407d6b[m
+Author: Shawn Presser <shawnpresser@gmail.com>
+Date:   Tue Jul 10 17:29:03 2018 -0500
+
+    Get rid of extra whitespace
+
+[33mcommit 99a93585a0b8e554d624ef557be428b58959c5a3[m
+Author: Shawn Presser <shawnpresser@gmail.com>
+Date:   Tue Jul 10 17:25:09 2018 -0500
+
+    Refactor args.image code
+
+[33mcommit 80666bb845bd2fa23779560f0c19111f84fed193[m
+Author: Shawn Presser <shawnpresser@gmail.com>
+Date:   Tue Jul 10 17:05:10 2018 -0500
+
+    Fix args.image
+
+[33mcommit 489e19a64f72f35099c5990793e8ea8784b4f616[m
+Merge: 48eefe7 0b483f8
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 10 17:45:19 2018 -0400
+
+    Merge pull request #214 from shawwn/2018-07-10/fix-package-json-build
+    
+    Fix package.json build script
+
+[33mcommit 0b483f842792fdd96da5627f8714a500f1c266a0[m
+Author: Shawn Presser <shawnpresser@gmail.com>
+Date:   Tue Jul 10 16:37:59 2018 -0500
+
+    Fix package.json build script
+
+[33mcommit 48eefe72249f58fe3f20838f6e94555c93629528[m
+Merge: 6663213 122d528
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 10 04:58:05 2018 -0400
+
+    Merge pull request #213 from ngokevin/removeoverlaydetection
+    
+    remove enter vr button / overlay click detection
+
+[33mcommit 122d528c1c50c7281d15cc99ac6cccc4b67ee461[m
+Author: Kevin Ngo <me@ngokevin.com>
+Date:   Tue Jul 10 01:12:57 2018 -0700
+
+    remove enter vr button / overlay click detection
+
+[33mcommit 6663213a994775afe6dfa89a3948b76353f85ef9[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 18:06:53 2018 -0400
+
+    0.0.393
+
+[33mcommit 20e03b91e019f44b112c8c62c036cbbb0a3c91f2[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 09:18:58 2018 -0400
+
+    Bugfix WebGL2 style bufferSubData size argument typing
+
+[33mcommit 549a48176f4c81b9ff54f2ea424f34469e12f122[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 08:46:47 2018 -0400
+
+    Add more WebGL2 getParameter arguments support
+
+[33mcommit 54e3b7bc599864aa85bb9b1fb0ab7627435b65da[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 08:46:30 2018 -0400
+
+    Add WebGL2 VERTEX_ARRAY_BINDING constant
+
+[33mcommit d6a7363336974df0dcdf0a57e306faed9230b074[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 08:41:49 2018 -0400
+
+    Add WebGL2 {READ,DRAW}_FRAMEBUFFER_BINDING constants
+
+[33mcommit db36b64990c0e4903852f7077caab591f6e67027[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 08:41:28 2018 -0400
+
+    Spacing cleanup
+
+[33mcommit 1742e94fb4c0b90e8052d6488c26e3b9633cf64c[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 08:36:55 2018 -0400
+
+    Bugfix glUniformNui gl calls
+
+[33mcommit 6cc759dd007cfddbbf99eb9d4746e61376787eba[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 08:34:39 2018 -0400
+
+    Bugfix UniformNi unsignedness
+
+[33mcommit c39aafb8a8689ce4568e5cd7b4bb758d2962def6[m
+Merge: 39a1fb1 5da0868
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 08:30:24 2018 -0400
+
+    Merge pull request #211 from webmixedreality/webgl2-version
+    
+    Return WebGL2 version
+
+[33mcommit 5da0868b504e7212bb4b60f8396b1da3e3abca2b[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 08:27:54 2018 -0400
+
+    Remove pointless WebGL getParameter ToObject()
+
+[33mcommit ccc38e28e21d56547c956143a92956df5a351edb[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 08:24:59 2018 -0400
+
+    Return WebGL2 version for gl.getParameter(gl.VERSION)
+
+[33mcommit 39a1fb16189d11a0a3d9c83c12b10c9fc68e7de4[m
+Merge: 9fb3c48 9220427
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 08:22:12 2018 -0400
+
+    Merge pull request #210 from webmixedreality/getparameter
+    
+    Make WebGL getParameter return correct zero
+
+[33mcommit 92204278ff219315dfefbc656b3b0bc8e0da82fe[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 08:19:04 2018 -0400
+
+    Make WebGL getParameter return correct zero
+
+[33mcommit 9fb3c4881d16db0c340e70cf9bc2004e297352c5[m
+Merge: e418847 e1afd1e
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 06:49:40 2018 -0400
+
+    Merge pull request #209 from webmixedreality/drawbuffers
+    
+    Expose WebGL2 drawBuffers on root context
+
+[33mcommit e1afd1e51c7b62cb2b1e3a3333860f555749c0fc[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 06:46:47 2018 -0400
+
+    Expose WebGL2 drawBuffers on root context
+
+[33mcommit e4188473095202ee44791df40b8aff443298b14c[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 06:45:57 2018 -0400
+
+    Expose more WebGL2 constants
+
+[33mcommit dd56cda6f3e91c06d54ed84a2c9372c44d80527d[m
+Merge: 0861ebe 3730c61
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 06:38:02 2018 -0400
+
+    Merge pull request #208 from webmixedreality/gl2-uniforms
+    
+    Add WebGL2 uniforms methods
+
+[33mcommit 3730c613c45e61f6593a7d4e2dc898133897e1cb[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 06:36:36 2018 -0400
+
+    Bugfix missing u in glVertexAttribI4ui call
+
+[33mcommit 080d9ea4ddab99857559dedd2d2c75a2d1089f99[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 06:30:06 2018 -0400
+
+    Add more new WebGL2 uniforms methods
+
+[33mcommit f4ddd4585a059d4b82f0d85827fc1d8a8b259ebc[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 06:29:47 2018 -0400
+
+    More dead comments cleanup
+
+[33mcommit 652efc12504035cce5b38a8fa08793cf0a12e3e7[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 06:29:21 2018 -0400
+
+    Spacing cleanup webgl.h
+
+[33mcommit c97004afb806446241e60d465744bc8cbac34a4b[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 06:29:01 2018 -0400
+
+    Small webgl.cc dead comments cleanup
+
+[33mcommit 35ea8a0bcc173ae852f8f14a6751d6adef6c7a91[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 06:26:00 2018 -0400
+
+    Add WebGL2 unsigned int uniforms methods
+
+[33mcommit 0861ebe98f135544d22a311fbd49759a00b6ca43[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 06:25:21 2018 -0400
+
+    Clean up WebGL integer uniform types
+
+[33mcommit af6ce335714689d5bbbdc9dcb4c441656db90e12[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 05:58:53 2018 -0400
+
+    Dead comments cleanup in webgl.cc
+
+[33mcommit 9e614bf4776f899f31c89f0704d08aa9b7749683[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 05:54:03 2018 -0400
+
+    Clean up VertexAttribDivisor types
+
+[33mcommit 39dd219afbedb49d4afcca3719ecc9719c538c24[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 05:48:12 2018 -0400
+
+    Spacing cleanup in webgl.cc
+
+[33mcommit 250a60a8ce4b95d17a6af38186f87f9a59a39890[m
+Merge: e9e7f74 8690188
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 05:19:34 2018 -0400
+
+    Merge pull request #206 from webmixedreality/drawrangeelements
+    
+    Add WebGL2 drawRangeElements
+
+[33mcommit 8690188ef52bebf4b0d37a8dcaf90b01c6fde116[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 05:18:34 2018 -0400
+
+    Add WebGL2 drawRangeElements method
+
+[33mcommit e9e7f74fd9692217acbc6abc3a81743770805b2d[m
+Merge: 63d74f3 ca0e64b
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 05:11:17 2018 -0400
+
+    Merge pull request #205 from webmixedreality/deangle
+    
+    De-ANGLE WebGL ANGLE methods
+
+[33mcommit ca0e64ba512c63278924fc689e730e423a80ccca[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 05:08:45 2018 -0400
+
+    De-ANGLE WebGL ANGLE methods
+
+[33mcommit 63d74f3d962ef77a857fe7b2d26fc75cab077d89[m
+Merge: ef567f5 4bed293
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 05:01:54 2018 -0400
+
+    Merge pull request #204 from webmixedreality/webgl-garbage
+    
+    WebGL: accept garbage
+
+[33mcommit 4bed2934d47db260eef4bdf2ef8f2cb8bc31249b[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 03:38:59 2018 -0400
+
+    Clean up WebGL methods arguments signedness
+
+[33mcommit 173bf2252bc5f7c224b3c488a8cdf80619dac635[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 03:36:36 2018 -0400
+
+    WebGL isEnabled cleanup
+
+[33mcommit f8b19aacfcaa730305db59f7d02727ea406c3070[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Mon Jul 9 03:35:31 2018 -0400
+
+    Add WebGL call garbage value checks
+
+[33mcommit ef567f52ba02db63c528ea99fa05e31f8cf891e7[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 8 21:22:21 2018 -0400
+
+    0.0.392
+
+[33mcommit 978906ff1a35979b6fad3ae8fd173d600c31c5e7[m
+Merge: 09c4c0e 2f2158b
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 8 19:42:22 2018 -0400
+
+    Merge pull request #203 from webmixedreality/gl2-buffersubdata
+    
+    WebGL2 garbage-free bufferSubData
+
+[33mcommit 2f2158b1234a3e0129481760db46d3fe82fd332d[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 8 19:40:14 2018 -0400
+
+    Add WebGL garbage-free bufferSubData overload
+
+[33mcommit 09c4c0e18cfae0854916031cbeb8bb54dcfa9e46[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 8 19:30:46 2018 -0400
+
+    0.0.391
+
+[33mcommit 16892311c197b23a4c591c37d1edef161d5df877[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 8 19:30:11 2018 -0400
+
+    Bugfix ArrayBufferView element size lookup 1-size constant
+
+[33mcommit e9e9db371b54b403b0e50bce270774480cf51de8[m
+Merge: 05483bc 9f5b160
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 8 19:27:42 2018 -0400
+
+    Merge pull request #202 from webmixedreality/gl2-buffer-constants
+    
+    Add more WebGL2 buffer constants
+
+[33mcommit 9f5b160cf2f0daeedf255dcd3975871128ad970d[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 8 19:16:39 2018 -0400
+
+    Add mode WebGL2 buffer constants
+
+[33mcommit 06783e038a0d26a9233f4e0ec9fade406f11c7f7[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 8 19:16:30 2018 -0400
+
+    Clean up PIXEL_PACK_BUFFER constants
+
+[33mcommit 05483bcd5604381725c5f9419f00762efa39a2f2[m
+Merge: cc5fa7d 86a74d6
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 8 18:39:45 2018 -0400
+
+    Merge pull request #200 from webmixedreality/glsync
+    
+    WebGL2 sync fences
+
+[33mcommit cc5fa7d8402794b8dbb7b67b0738b7a7e7a5a938[m
+Merge: 51a5dc0 7e13b52
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 8 18:39:21 2018 -0400
+
+    Merge pull request #194 from webmixedreality/size-cleanup
+    
+    Clean up WebGL signs accessors
+
+[33mcommit 86a74d6af21d7cac2d319fe3bfb7ee1e7969809e[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 8 18:21:19 2018 -0400
+
+    Add WebGL sync constants
+
+[33mcommit c05666dd240400dc7542f461f2cfde8c536738c3[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 8 18:21:02 2018 -0400
+
+    Add WebGL sync methods
+
+[33mcommit 01f39f6d2c310b8edfbc1d7bee29f12ea87a9c2b[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 8 18:20:42 2018 -0400
+
+    Add WebGL isSync
+
+[33mcommit 51a5dc040d073ca74dfc3bb9472ab31acab53938[m
+Merge: 0f973b5 f1053cc
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 8 17:21:54 2018 -0400
+
+    Merge pull request #199 from webmixedreality/teximage2d
+    
+    texImage2D WebGL2 overloads
+
+[33mcommit f1053cca37a6cfaf66311f460132bcd1267626e7[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 8 17:02:52 2018 -0400
+
+    Bugfix texImage2D image objects not being accepted
+
+[33mcommit 0f973b582176e2b2cbd8daeba9260263ae1d6fc3[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 8 03:34:56 2018 -0400
+
+    0.0.390
+
+[33mcommit 05152296050db5208296e4a004445f757b203d9f[m
+Merge: 04e2e00 97f2a68
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 8 11:37:35 2018 -0400
+
+    Merge pull request #198 from shawwn/fixes/libopenvr
+    
+    Fix missing libopenvr_api.so
+
+[33mcommit 97f2a68487b09b0ddbce45e2bc70d05e8ab51e05[m
+Author: Shawn Presser <shawnpresser@gmail.com>
+Date:   Sun Jul 8 06:26:19 2018 -0500
+
+    Fix missing libopenvr_api.so
+    
+    Closes #197
+
+[33mcommit 96e3233143a1b0ab661802183f95739c2ae29100[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 8 03:25:43 2018 -0400
+
+    Add WebGL texSubImage2D offsets support
+
+[33mcommit fad05dfc79a3f5a31d0d46a096cfc8897df1d0b8[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 8 03:25:10 2018 -0400
+
+    TexImage2D arguments corner case bugfix
+
+[33mcommit bfd0c725fa55ca2178531561f64701d943d02e40[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 8 03:24:17 2018 -0400
+
+    WebGL texImage2D cleanups
+
+[33mcommit 818ede0e3b80f49df07b0447d3bf51630f9a25cf[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 8 03:08:57 2018 -0400
+
+    Add texImage2D PIXEL_UNPACK_BUFFER direct upload support
+
+[33mcommit bd04526eb6565130d728e2817dbe41c278d50421[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 8 03:08:28 2018 -0400
+
+    Add texImage2D ArrayBufferView offset argument support
+
+[33mcommit f614c9aa304fba77cd7c5185313b841be950d31d[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 8 03:05:57 2018 -0400
+
+    Small texImage2D cleanup
+
+[33mcommit e984495316ef0f4a05d93167bac7a4ad3302a87f[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sun Jul 8 03:05:03 2018 -0400
+
+    Add WebGL getArrayBufferViewElementSize helper method
+
+[33mcommit 04e2e008baacd8452420624b503ba5446af64c67[m
+Merge: 3d62efe 7896f77
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 7 21:43:22 2018 -0400
+
+    Merge pull request #195 from webmixedreality/texstorage2d
+    
+    Add WebGLRenderingContext texStorage2D
+
+[33mcommit 7896f773905b7cd5d5a5b09886e605b1a3cf37b4[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 7 21:42:00 2018 -0400
+
+    Add WebGLRenderingContext texStorage2D
+
+[33mcommit 7e13b5207af7fe0d9fe56ba6cd2566be12e3c377[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 7 21:39:11 2018 -0400
+
+    Clean up WebGL signs accessors
+
+[33mcommit 3d62efea125e39f9b6c1963c72e6eae48302072d[m
+Merge: 5323434 fd6b25b
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 7 21:15:16 2018 -0400
+
+    Merge pull request #193 from webmixedreality/vao
+    
+    VAO support
+
+[33mcommit fd6b25bbf5af3284f809b1ec2c91a0eee9d81c7d[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 7 21:12:02 2018 -0400
+
+    Add initial VAO support
+
+[33mcommit 532343482cbf78187eabbda55d52ec60b8b80109[m
+Merge: f034571 30bee8b
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 7 20:43:53 2018 -0400
+
+    Merge pull request #188 from webmixedreality/webgl-dirty
+    
+    WebGLRenderingContext dirty flag
+
+[33mcommit 30bee8b3a2660f55def157cf66c1b08fbb611ba1[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 7 20:39:21 2018 -0400
+
+    Add more WebGLRenderingContext dirty flag cases
+
+[33mcommit f0345712b216dc325b21e024933090f050cde804[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 7 20:38:43 2018 -0400
+
+    Spacing cleanup
+
+[33mcommit 5a4a86fc435182075d7117e586b23439ab8f2775[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 7 20:38:28 2018 -0400
+
+    Remove WebGL2RenderingContext test method
+
+[33mcommit bacddc793b853362c15c3558b5006952b3f451ac[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 7 19:31:14 2018 -0400
+
+    0.0.389
+
+[33mcommit a690f84d8b8ebe7203fc8b6c9b4b49d3483dfe7d[m
+Merge: c5f3ed1 a264543
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 7 17:43:29 2018 -0400
+
+    Merge pull request #187 from webmixedreality/webgl2
+    
+    WebGL2 support
+
+[33mcommit a26454355deeab181623a0ce2b957438c60fa2f0[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 7 17:11:46 2018 -0400
+
+    Flag WebGL2RenderingContext as ok in CanvasRenderingContext2D::getImage check
+
+[33mcommit 2167f93cfe817eb9dd653b67001c5f675635c49b[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 7 17:09:46 2018 -0400
+
+    Expose 'webgl2' on HTMLCanvasElement getContext
+
+[33mcommit 6343bc95ce4a241b230e1be271b078e75e8f21e4[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 7 17:06:13 2018 -0400
+
+    Ensure nativeGl2 decoration
+
+[33mcommit e8aba25789674b2fcf6d0bfb1e70de6f9a3e1df4[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 7 17:05:47 2018 -0400
+
+    Abstract out WebGLRenderingContext gl decoration
+
+[33mcommit aae995445c15de45769ddf5daa67016510c2b8ec[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 7 17:05:14 2018 -0400
+
+    Expose WebGL2RenderingContext on window
+
+[33mcommit b98baeca71e905f0baf218b055555aef36361e2a[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 7 17:04:55 2018 -0400
+
+    Expose nativeGl2
+
+[33mcommit 06de9cdb02da3a03ab7ba39d29ac8085ff360ead[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 7 17:04:21 2018 -0400
+
+    Add WebGL2RenderingContext inheritance infrastructure
+
+[33mcommit c5f3ed153e54453d9ca0b262ae578f180345777c[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 7 17:02:40 2018 -0400
+
+    Spacing cleanup
+
+[33mcommit 8f6afd3e07b3e968135ce71464449a5f2663dc3a[m
+Merge: 836e066 a7f0073
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 7 15:37:59 2018 -0400
+
+    Merge pull request #186 from webmixedreality/vaip
+    
+    Add WebGL2 vertexAttribIPointer method
+
+[33mcommit a7f0073ce9b427ddcdd4af5d9a12104dc28927be[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 7 15:28:21 2018 -0400
+
+    Add WebGL2 vertexattribipointer method
+
+[33mcommit 836e06655a30fd775a5869bb612d52d929344d1d[m
+Merge: 174183a db46c9d
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 7 08:06:57 2018 -0400
+
+    Merge pull request #185 from webmixedreality/blitframebuffer
+    
+    Add WebGL2 blitFramebuffer method
+
+[33mcommit db46c9def7dad77361cc3612bc7a87d7695aeec4[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 7 08:05:02 2018 -0400
+
+    Add WebGL2 blitFramebuffer method
+
+[33mcommit 174183a4f870ab4ceb5a259ac3a356d22c27a469[m
+Merge: a485e8e 35f055e
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 7 08:03:26 2018 -0400
+
+    Merge pull request #184 from webmixedreality/fb-constants
+    
+    Add missing READ_FRAMEBUFFER and DRAW_FRAMEBUFFER constants
+
+[33mcommit 35f055e469062521f2c62dca8021126e16e9c810[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Sat Jul 7 08:02:05 2018 -0400
+
+    Add missing READ_FRAMEBUFFER and DRAW_FRAMEBUFFER constants
+
+[33mcommit a485e8e0eb98d26a306318c399f96e6165789c2f[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 6 08:16:22 2018 -0400
+
+    0.0.388
+
+[33mcommit cf492f7d76e166edfc3537b62b6427ef0fc51e7d[m
+Merge: 912555b 894254e
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 6 06:54:29 2018 -0400
+
+    Merge pull request #180 from webmixedreality/media-tests
+    
+    Mode media element tests
+
+[33mcommit 912555be0a743de28d099241c0ca00b6412b7c85[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 6 06:07:29 2018 -0400
+
+    Remove exodump removers from CI scripts
+
+[33mcommit 70b6acbc6e86afa93433704f7104715b911ba47e[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 6 06:06:37 2018 -0400
+
+    Remove exodumps
+
+[33mcommit 894254e0bf2bd8304d4d2c374bc110442878596d[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 6 05:01:56 2018 -0400
+
+    Clean up <video> test describe label
+
+[33mcommit f9cd673ff7d7568c60ed0b4a5245b7b95636b572[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 6 03:55:28 2018 -0400
+
+    Clean up SrcableElement async tests
+
+[33mcommit e2f401e765aefb7b0b32a626640c324a1bf0c8f0[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 6 03:52:03 2018 -0400
+
+    Add SrcableElement addEventListener tests
+
+[33mcommit 88690533976a6b8e4d73a3c34adeff364f665454[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 6 03:49:53 2018 -0400
+
+    Add SrcableElement async tests
+
+[33mcommit 135d4e9b65d67724f71ba53e74c6571a02cf28d4[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 6 03:48:32 2018 -0400
+
+    Add more SrcableElement tests
+
+[33mcommit ee555762a3ec5fe273c1de5841bb29f98cfb9755[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 6 03:40:48 2018 -0400
+
+    SrcableElement tests ordering cleanup in likelihood of crashing
+
+[33mcommit aedcbbd7b19afa8b1b3bc3b195ee50b61995adac[m
+Merge: 188c41d f95db03
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 6 06:03:30 2018 -0400
+
+    Merge pull request #182 from webmixedreality/image-load-cb
+    
+    Image load AsyncResource
+
+[33mcommit 188c41de078d16ec763dd3fda9f451c587233e0c[m
+Merge: bc4afd7 c07d9ad
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 6 05:46:29 2018 -0400
+
+    Merge pull request #181 from webmixedreality/test-port
+    
+    Change test port 3000->10000
+
+[33mcommit f95db03baa84c68bd86b098ea3a4d2075b3dd525[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 6 05:44:37 2018 -0400
+
+    Wrap native image load callback in AsyncResource
+
+[33mcommit c07d9ad163774eba2d7a48697f32792399a5b5f6[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 6 04:54:08 2018 -0400
+
+    Use 127.0.0.1 instead of localhost
+
+[33mcommit 46355f6ce061ee565e626ea45f93f431af5e419f[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 6 04:53:46 2018 -0400
+
+    Use port 10000 instead of 3000
+
+[33mcommit bc4afd74eb718bd329e952a98fd1cd644eb04dea[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 6 04:39:21 2018 -0400
+
+    Bugfix AudioContext::_DecodeAudioDataSync error throw label
+
+[33mcommit 436c08c317806c1668399204f0ffc615909d4194[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 6 04:32:37 2018 -0400
+
+    Minor: bump webgl-to-opengl version
+
+[33mcommit 883259c0acf44c2425e9a7329e30693cc2c90697[m
+Merge: 0475da0 1045e9f
+Author: Avaer Kazmer <a@modules.io>
+Date:   Fri Jul 6 03:38:43 2018 -0400
+
+    Merge pull request #179 from ngokevin/rmstubs
+    
+    remove stubbed unbound modules, move rest of DOM classes to DOM.js (fixes #175)
+
+[33mcommit 1045e9fe26da735df062d89e8a5555d134dfd437[m
+Author: Kevin Ngo <me@ngokevin.com>
+Date:   Thu Jul 5 23:16:39 2018 -0700
+
+    update srcable element tests to do actual file loading and assertion
+
+[33mcommit c3849ecce2bc49253e3ebaff05012bea33249757[m
+Author: Kevin Ngo <me@ngokevin.com>
+Date:   Thu Jul 5 22:28:55 2018 -0700
+
+    fix CI by disabling audio element test
+
+[33mcommit 1135839b1c22c7e0683b58c50dbc6b1515a85428[m
+Author: Kevin Ngo <me@ngokevin.com>
+Date:   Thu Jul 5 22:18:58 2018 -0700
+
+    add media element tests, modify bindings require method
+
+[33mcommit 54fa6d6712008d9b3f6e947e8a3576b5409c7a49[m
+Author: Kevin Ngo <me@ngokevin.com>
+Date:   Thu Jul 5 21:54:00 2018 -0700
+
+    remove stubbed unbound modules, move rest of DOM classes to DOM.js
+
+[33mcommit 0475da06f10938bdc2525ea3d8056ab6df3e2f4a[m
+Merge: 7edcac7 05e7dba
+Author: Avaer Kazmer <a@modules.io>
+Date:   Thu Jul 5 22:13:49 2018 -0400
+
+    Merge pull request #178 from webmixedreality/max-listeners
+    
+    Set max listeners Infinity on EventTarget
+
+[33mcommit 05e7dba54e5c225da58e5a29d96513e10ea90c81[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Thu Jul 5 22:01:14 2018 -0400
+
+    Set max listeners Infinity on EventTarget
+
+[33mcommit 7edcac7f97b5dafa9db71f06d3e2d97a7bf88a09[m
+Merge: 930745c fd7bdd2
+Author: Avaer Kazmer <a@modules.io>
+Date:   Thu Jul 5 20:57:49 2018 -0400
+
+    Merge pull request #166 from ngokevin/clonenode
+    
+    fix deep cloneNode not setting parent
+
+[33mcommit fd7bdd22246287def05f2652333583bbb9665d6a[m
+Author: Kevin Ngo <me@ngokevin.com>
+Date:   Wed Jul 4 13:14:30 2018 -0700
+
+    update test commands
+
+[33mcommit 75cc98edf89dc21a5abb220752a0fb629be182ac[m
+Author: Kevin Ngo <me@ngokevin.com>
+Date:   Wed Jul 4 12:55:31 2018 -0700
+
+    remove ownerDocument checks
+
+[33mcommit 722d1b28ee645ec900f12e1a78f3b7f6685a9944[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 4 11:23:59 2018 -0400
+
+    Use exokit module as source of document for Element unit tests
+
+[33mcommit 76bb555599b6a594a7f1a8a114c09231a752a1ac[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 4 11:23:03 2018 -0400
+
+    Refactor Element test asserts to be more document-y
+
+[33mcommit b4042de273a8a16348999e77c98633016fb6ab36[m
+Author: Kevin Ngo <me@ngokevin.com>
+Date:   Wed Jul 4 02:07:14 2018 -0700
+
+    fix deep cloneNode not setting parent, fix DOM not checking for ownerDocument existence in couple places
+
+[33mcommit 930745cefd007025af72633642edf6d9febe2d0d[m
+Merge: f9065fc 6a7ffb2
+Author: Avaer Kazmer <a@modules.io>
+Date:   Thu Jul 5 20:37:45 2018 -0400
+
+    Merge pull request #176 from ngokevin/decodeaudiodata
+    
+    fix AudioContext.decodeAudioData being sync
+
+[33mcommit 6a7ffb29a497f63164adf3fbc8c508552c6cdd7f[m
+Author: Kevin Ngo <me@ngokevin.com>
+Date:   Thu Jul 5 17:21:29 2018 -0700
+
+    catch user errors in decodeAudioData, log errors
+
+[33mcommit fc0a78a0b8e52330a026948c047d27b02c83739f[m
+Author: Kevin Ngo <me@ngokevin.com>
+Date:   Thu Jul 5 16:54:12 2018 -0700
+
+    mimic asynchrony decodeAudioData
+
+[33mcommit b3962be3c33b1c621fe34bdcd8aacb4999fa1508[m
+Author: Kevin Ngo <me@ngokevin.com>
+Date:   Thu Jul 5 16:44:21 2018 -0700
+
+    skip audio test on CI for now, errors on finding audio device
+
+[33mcommit 66549e8505fc55911102238c617d23c82b9f8f69[m
+Author: Kevin Ngo <me@ngokevin.com>
+Date:   Thu Jul 5 16:35:40 2018 -0700
+
+    fix AudioContext.decodeAudioData being sync
+
+[33mcommit f9065fc8752185c4988238a681e37b60e00e30f5[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 4 22:52:09 2018 -0400
+
+    Bugfix --frame and --minimalFrame command line args
+
+[33mcommit 54f5d454b938fcff5e01b9d12d44d19c008e8a72[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 4 18:07:10 2018 -0400
+
+    0.0.387
+
+[33mcommit a44de21d65fba364c07b59b96bb4214d49d04fae[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 4 18:05:39 2018 -0400
+
+    Add HTMLImageElement(width, height) constructor support
+
+[33mcommit 0a2b0b0506f6258bd5f3062c0d4fdc242ce85bd7[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 4 14:31:58 2018 -0400
+
+    0.0.386
+
+[33mcommit 338e80b7fa6af502f29a6102569a13d68dc5010f[m
+Merge: b9f5ce6 34c592a
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 4 14:31:27 2018 -0400
+
+    Merge pull request #171 from webmixedreality/dispatch-catch
+    
+    Catch and log EventTarget dispatchEvent errors
+
+[33mcommit 34c592a94b71fc810c8b2912ec436bd24e22f269[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 4 14:26:32 2018 -0400
+
+    Catch and log EventTarget dispatch errors
+
+[33mcommit b9f5ce6c5c03db05c53428a02163f9411c88ffd6[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 4 14:23:05 2018 -0400
+
+    Use EventTarget for events latching
+
+[33mcommit ba811301ca1a7872faa238753158369a3272d6b1[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 4 13:53:38 2018 -0400
+
+    0.0.385
+
+[33mcommit 6aa311018b1b907c47f6751bd023dc763caef261[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 4 13:53:35 2018 -0400
+
+    More macos codesigning bugfixing
+
+[33mcommit 7eb0d7aec81a2046dac0019100d817e1ff83edba[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 4 12:39:18 2018 -0400
+
+    0.0.384
+
+[33mcommit 042d5d3d592a92269dc8da4fd6d69ab8151019b1[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 4 12:38:56 2018 -0400
+
+    Disable OSX codesigning internally instead of in travis script
+
+[33mcommit 24a2dddea1254762715385c42ece9100924df822[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 4 12:32:03 2018 -0400
+
+    0.0.383
+
+[33mcommit 5e53ce4a406c3d15ef409e6f590fe02bba9dd79a[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 4 12:31:52 2018 -0400
+
+    Temporarily disable osx codesigning
+
+[33mcommit 463fbc1aa28cdc655079b62bf7af784223ee6264[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 4 12:14:48 2018 -0400
+
+    0.0.382
+
+[33mcommit 2e80516445b0673076af3e7a169295450f19f79c[m
+Merge: 73b522e d2aadd8
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 4 11:37:26 2018 -0400
+
+    Merge pull request #168 from webmixedreality/bugsnag-hang
+    
+    Bugsnag only in app mode
+
+[33mcommit d2aadd8abb520ceb9a9cdede6b6d44600f32a385[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 4 11:32:28 2018 -0400
+
+    Move bugsnag/fault-zone to only start on app mode
+
+[33mcommit 73b522e3e03aaa38a8c6840703d5237435f2098d[m
+Merge: d9e6ded aaa00c3
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 4 10:21:06 2018 -0400
+
+    Merge pull request #167 from ngokevin/xr
+    
+    only add getVRDisplays/xr to navigator if enabled
+
+[33mcommit aaa00c3d1fba2e766d9e0d98ba844ce7d1190392[m
+Author: Kevin Ngo <me@ngokevin.com>
+Date:   Wed Jul 4 02:38:42 2018 -0700
+
+    only add getVRDisplays/xr to navigator if enabled
+
+[33mcommit d9e6ded890f614f686265a9a5df912aa78f23997[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 4 03:25:31 2018 -0400
+
+    0.0.381
+
+[33mcommit 03ac09532851ec9926b1a4830b21cf4813e35739[m
+Merge: b071d8a e7a631f
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 4 01:50:38 2018 -0400
+
+    Merge pull request #153 from ngokevin/unittest
+    
+    start unit test with mocha/sinon/chai
+
+[33mcommit e7a631f58a25563e5a4062f1da6dcd3684cf09a7[m
+Author: Kevin Ngo <me@ngokevin.com>
+Date:   Tue Jul 3 21:55:25 2018 -0700
+
+    fix again
+
+[33mcommit b071d8a577a6062ae8b9d4f56b3d74267e5d5fa6[m
+Merge: 129c5ee 61f9304
+Author: Avaer Kazmer <a@modules.io>
+Date:   Wed Jul 4 00:40:23 2018 -0400
+
+    Merge pull request #165 from ngokevin/range
+    
+    .appendChild(DocumentFragment) and cloneNode fixes, Range.createContextualFragment
+
+[33mcommit 8fdf693992524a5609c948bc5f27b9df008e762c[m
+Author: Kevin Ngo <me@ngokevin.com>
+Date:   Tue Jul 3 21:20:35 2018 -0700
+
+    try run using built node
+
+[33mcommit 5c91b2a16072696bbf8a58bde5b25ebd6d312125[m
+Author: Kevin Ngo <me@ngokevin.com>
+Date:   Tue Jul 3 00:23:22 2018 -0700
+
+    start unit test with mocha/sinon/chai
+
+[33mcommit 61f93048bb604bd9db982f65b0b92ebced7d2fab[m
+Author: Kevin Ngo <me@ngokevin.com>
+Date:   Tue Jul 3 18:32:51 2018 -0700
+
+    .appendChild(DocumentFragment) and cloneNode fixes, Range.createContextualFragment
+
+[33mcommit 129c5ee71da08a6ab2beb3984afa40524966721d[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 3 21:29:53 2018 -0400
+
+    Remove terminal emojis until unicode support improves 😿. Fixes #164
+
+[33mcommit e92626bab7a5f1f1551eb626fcbc23e5444a12a4[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 3 21:02:01 2018 -0400
+
+    0.0.380
+
+[33mcommit cd32bcd410db6c59078518ec9f27a1bbff597ea0[m
+Merge: 7799a7f ecf1f98
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 3 21:01:11 2018 -0400
+
+    Merge pull request #159 from webmixedreality/run
+    
+    HTML run elements refactoring
+
+[33mcommit ecf1f98dfde6e15e2b94a892832431441f943d22[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 3 15:00:04 2018 -0400
+
+    Make HTMLSrcableElement loads async
+
+[33mcommit d99a0bcf4c44cbf66a091416bb55ab8f928444a3[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 3 14:33:57 2018 -0400
+
+    Update element run hooks comment
+
+[33mcommit 9d689fa672c795374cf1b86b7c043ac0c4e4df61[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 3 14:32:57 2018 -0400
+
+    Bugfix HTMLScriptElement async detection
+
+[33mcommit f9008cb0d1f6a53b1d8debe56453e8cab070faf5[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 3 14:31:42 2018 -0400
+
+    Update DOM.js runSymbol references
+
+[33mcommit 943b675776290fe04750317d99e10a067ab44559[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 3 14:29:29 2018 -0400
+
+    Hook in sync/async loads in _runHtml
+
+[33mcommit 138106d23583b422e37fb698ebf39db94682b41b[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 3 14:28:33 2018 -0400
+
+    Declare sync/async load types for elements in DOM.js
+
+[33mcommit a2ec59e8fae1eb740f9c18651ba4c3d3bfcf614c[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 3 14:03:15 2018 -0400
+
+    Abstract element run into runSymbol
+
+[33mcommit 3fde79afe6be04d16f74df93249dcacb68c502fd[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 3 13:59:29 2018 -0400
+
+    Add initial HTML element run comment
+
+[33mcommit 7799a7f5b0e3371b7b9173e26c6bd761b3b2c96e[m
+Merge: 9ed45ae 3f8f44c
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 3 20:47:07 2018 -0400
+
+    Merge pull request #163 from webmixedreality/no-options
+    
+    Remove options arg from _parseDocument*
+
+[33mcommit 9ed45ae1c503c1e9aaee5e84c5c3a9056bc3867d[m
+Merge: 6958de0 ee90b6d
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 3 20:46:03 2018 -0400
+
+    Merge pull request #161 from ngokevin/lint
+    
+    add linter
+
+[33mcommit 3f8f44cd71506e0a0c4a4043dba6922e51c63693[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 3 20:38:19 2018 -0400
+
+    Remove options arg from _parseDocument*
+
+[33mcommit 6958de0e68f071aa8656a3f24a54114bbd0755f7[m
+Merge: 1ba3046 7b251a2
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 3 20:31:41 2018 -0400
+
+    Merge pull request #156 from ngokevin/document
+    
+    split some document-related code from core.js to src/Document.js
+
+[33mcommit ee90b6db7e68afac07ba1c3ad2ee57951cd2b7e7[m
+Author: Kevin Ngo <me@ngokevin.com>
+Date:   Tue Jul 3 15:55:00 2018 -0700
+
+    add linter
+
+[33mcommit 1ba30468fbd097b929421703b65031f776b2d6ca[m
+Merge: e333fe4 87f502a
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 3 20:23:05 2018 -0400
+
+    Merge pull request #162 from ngokevin/rebuild
+    
+    rebuild script
+
+[33mcommit 87f502a1cfbc4e612b24cfad6b5df16f7afe06c0[m
+Author: Kevin Ngo <me@ngokevin.com>
+Date:   Tue Jul 3 16:28:02 2018 -0700
+
+    rebuild script
+
+[33mcommit 7b251a2ec7e5321e8a516f3ab9ca91789cd80fdd[m
+Author: Kevin Ngo <me@ngokevin.com>
+Date:   Tue Jul 3 04:32:25 2018 -0700
+
+    split some document-related code from core.js to src/Document.js
+
+[33mcommit e333fe4e0ff287a6ae905ba4a2d2a6a99751418d[m
+Merge: 68bbf3c e9126ee
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 3 15:26:05 2018 -0400
+
+    Merge pull request #160 from webmixedreality/canvas2d-check
+    
+    CanvasRenderingContext2D surface creation checks
+
+[33mcommit e9126ee245579c7240d7970b07597b4788f984b2[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 3 15:22:40 2018 -0400
+
+    Throw on CanvasRenderingContext2D resize failure
+
+[33mcommit 737d3d33c7f1c085ea89aaa5bd33e5055e41ec8a[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 3 15:22:03 2018 -0400
+
+    Add CanvasRenderingContext2D isValid check on construction
+
+[33mcommit eb4dc3b54fd1a84a930e0ea60a268f9623521f5b[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 3 15:21:47 2018 -0400
+
+    Add CanvasRenderingContext2D isValid internal method
+
+[33mcommit 5f4526a47b70451845882bd7aac640e4012c4a61[m
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 3 15:21:03 2018 -0400
+
+    Small canvas context cleanup
+
+[33mcommit 68bbf3c7bd7175cd3906b88f0d82c280beee1801[m
+Merge: 54375c2 f56f46c
+Author: Avaer Kazmer <a@modules.io>
+Date:   Tue Jul 3 13:56:11 2018 -0400
+
+    Merge pull request #158 from webmixedreality/deglobal
+    
+    Abstract out remaining globalifications

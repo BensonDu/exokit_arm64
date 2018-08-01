@@ -280,94 +280,97 @@ let renderWidth = 0;
 let renderHeight = 0;
 const depthNear = 0.1;
 const depthFar = 10000.0;
-nativeVr.requestPresent = function(layers) {
-  if (!vrPresentState.glContext) {
-    const layer = layers.find(layer => layer && layer.source && layer.source.tagName === 'CANVAS');
-    if (layer) {
-      const canvas = layer.source;
-      let context = canvas._context;
-      if (!(context && context.constructor && context.constructor.name === 'WebGLRenderingContext')) {
-        context = canvas.getContext('webgl');
-      }
-      const window = canvas.ownerDocument.defaultView;
 
-      nativeWindow.setCurrentWindowContext(context.getWindowHandle());
+if(typeof nativeVr != 'undefined'){
+	 nativeVr.requestPresent = function(layers) {
+	  if (!vrPresentState.glContext) {
+	    const layer = layers.find(layer => layer && layer.source && layer.source.tagName === 'CANVAS');
+	    if (layer) {
+	      const canvas = layer.source;
+	      let context = canvas._context;
+	      if (!(context && context.constructor && context.constructor.name === 'WebGLRenderingContext')) {
+		context = canvas.getContext('webgl');
+	      }
+	      const window = canvas.ownerDocument.defaultView;
 
-      const vrContext = vrPresentState.vrContext || nativeVr.getContext();
-      const system = vrPresentState.system || nativeVr.VR_Init(nativeVr.EVRApplicationType.Scene);
-      const compositor = vrPresentState.compositor || vrContext.compositor.NewCompositor();
+	      nativeWindow.setCurrentWindowContext(context.getWindowHandle());
 
-      const lmContext = vrPresentState.lmContext || (nativeLm && new nativeLm());
+	      const vrContext = vrPresentState.vrContext || nativeVr.getContext();
+	      const system = vrPresentState.system || nativeVr.VR_Init(nativeVr.EVRApplicationType.Scene);
+	      const compositor = vrPresentState.compositor || vrContext.compositor.NewCompositor();
 
-      const {width: halfWidth, height} = system.GetRecommendedRenderTargetSize();
-      const width = halfWidth * 2;
-      renderWidth = halfWidth;
-      renderHeight = height;
+	      const lmContext = vrPresentState.lmContext || (nativeLm && new nativeLm());
 
-      const [fbo, tex, depthStencilTex, msFbo, msTex, msDepthStencilTex] = nativeWindow.createRenderTarget(context, width, height, 0, 0, 0, 0);
+	      const {width: halfWidth, height} = system.GetRecommendedRenderTargetSize();
+	      const width = halfWidth * 2;
+	      renderWidth = halfWidth;
+	      renderHeight = height;
 
-      context.setDefaultFramebuffer(msFbo);
+	      const [fbo, tex, depthStencilTex, msFbo, msTex, msDepthStencilTex] = nativeWindow.createRenderTarget(context, width, height, 0, 0, 0, 0);
 
-      vrPresentState.isPresenting = true;
-      vrPresentState.vrContext = vrContext;
-      vrPresentState.system = system;
-      vrPresentState.compositor = compositor;
-      vrPresentState.glContext = context;
-      vrPresentState.msFbo = msFbo;
-      vrPresentState.msTex = msTex;
-      vrPresentState.fbo = fbo;
-      vrPresentState.tex = tex;
+	      context.setDefaultFramebuffer(msFbo);
 
-      vrPresentState.lmContext = lmContext;
+	      vrPresentState.isPresenting = true;
+	      vrPresentState.vrContext = vrContext;
+	      vrPresentState.system = system;
+	      vrPresentState.compositor = compositor;
+	      vrPresentState.glContext = context;
+	      vrPresentState.msFbo = msFbo;
+	      vrPresentState.msTex = msTex;
+	      vrPresentState.fbo = fbo;
+	      vrPresentState.tex = tex;
 
-      window.top.updateVrFrame({
-        renderWidth,
-        renderHeight,
-        force: true,
-      });
+	      vrPresentState.lmContext = lmContext;
 
-      return {
-        width,
-        height,
-        framebuffer: msFbo,
-      };
-    } else {
-      throw new Error('no HTMLCanvasElement source provided');
-    }
-  } else {
-    const {width: halfWidth, height} = vrPresentState.system.GetRecommendedRenderTargetSize();
-    const width = halfWidth * 2;
+	      window.top.updateVrFrame({
+		renderWidth,
+		renderHeight,
+		force: true,
+	      });
 
-    return {
-      width,
-      height,
-      framebuffer: vrPresentState.msFbo,
-    };
-  }
-};
-nativeVr.exitPresent = function() {
-  if (vrPresentState.isPresenting) {
-    nativeVr.VR_Shutdown();
+	      return {
+		width,
+		height,
+		framebuffer: msFbo,
+	      };
+	    } else {
+	      throw new Error('no HTMLCanvasElement source provided');
+	    }
+	  } else {
+	    const {width: halfWidth, height} = vrPresentState.system.GetRecommendedRenderTargetSize();
+	    const width = halfWidth * 2;
 
-    nativeWindow.destroyRenderTarget(vrPresentState.msFbo, vrPresentState.msTex);
-    nativeWindow.destroyRenderTarget(vrPresentState.fbo, vrPresentState.tex);
+	    return {
+	      width,
+	      height,
+	      framebuffer: vrPresentState.msFbo,
+	    };
+	  }
+	};
+	nativeVr.exitPresent = function() {
+	  if (vrPresentState.isPresenting) {
+	    nativeVr.VR_Shutdown();
 
-    const context = vrPresentState.glContext;
-    nativeWindow.setCurrentWindowContext(context.getWindowHandle());
-    context.setDefaultFramebuffer(0);
+	    nativeWindow.destroyRenderTarget(vrPresentState.msFbo, vrPresentState.msTex);
+	    nativeWindow.destroyRenderTarget(vrPresentState.fbo, vrPresentState.tex);
 
-    vrPresentState.isPresenting = false;
-    vrPresentState.system = null;
-    vrPresentState.compositor = null;
-    vrPresentState.glContext = null;
-    vrPresentState.msFbo = null;
-    vrPresentState.msTex = null;
-    vrPresentState.fbo = null;
-    vrPresentState.tex = null;
-  }
+	    const context = vrPresentState.glContext;
+	    nativeWindow.setCurrentWindowContext(context.getWindowHandle());
+	    context.setDefaultFramebuffer(0);
 
-  return Promise.resolve();
-};
+	    vrPresentState.isPresenting = false;
+	    vrPresentState.system = null;
+	    vrPresentState.compositor = null;
+	    vrPresentState.glContext = null;
+	    vrPresentState.msFbo = null;
+	    vrPresentState.msTex = null;
+	    vrPresentState.fbo = null;
+	    vrPresentState.tex = null;
+	  }
+
+	  return Promise.resolve();
+	};
+} // end nativeVr
 let mlContext = null;
 let isMlPresenting = false;
 let mlFbo = null;
