@@ -343,6 +343,7 @@
               ],
               'libraries': [
                 '-lGL',
+                '-lEGL',
                 '-lGLU',
                 '-lX11',
                 '-lGLEW',
