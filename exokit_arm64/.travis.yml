@@ -1,0 +1,104 @@
+language: node_js
+node_js:
+- '10'
+env:
+  matrix:
+    secure: CTziiKsHYCjdRYftawXT7oBMFm3nOQNRc+ZFv0rUxTaGkw9ImwuxBv6yqMGh6YfykIe94aFNwV+oN8vbuG9NZ56xotAW7mt4r/eCQRnutm54IoJV4SoCdBlgRFPk26nRafnogmDq/pH7lzLI7csDvup0ABF3R6Ysji19vR4LnNIotahdOtyt5jHBnn60XxibluCy6q03Xg2bw1UNjGFN0PVrw5wpPnpB3WugEkyd4Nos5US7q80KC3ltThw1c9TYDz38rryghMnm0lPe1/ruxCMzHx9KLwZl/D3Bikxf2YLaifwphf5NIkAQiAUpaYcMamBZsABxtzE45+TBhSc4sKGJL+ZuFwXAp/gbBbxgtY+9BKHnV78v1+bcAY4Geb8kKAsUgN7Q3Tqk0mjy+L4pML2BXyD5v7x8ev9MRfKbamx1GRX+XvP1pDVLFCHsT4cnPoUoE4SjXma9s6ry0cvN2crkVfRk1KQJhbpYphmQHVfY49nNN77es0Uo+T51w5zHfvzjWwx12C1rauX5s2tdmm3mkSUNgSMsu4egE7LoGARZYqlxRlpmjzvwhDo2jKhMPnOE9lbmH9v6s3BeizMSHbtKDRgpaH1G4dqwC/rL+vIf5ED/Sfm3KEdAVadk0U8E4a3L5jqTYbSLYT1wvYCZmvvt47OKQY9ubuFkhLRht9M=
+    secure: MP84r8nsLXPBijsGNglKWZEOvTjVcDJwcsm708S3kw0HxtbYHPfDVxAFV9iCSff9mCCNeUP/uTCw4e0MxzqtoLirj+qzWI8EDqLDxB/YsAdANm5Puq+7QYWvgK6HwYmq8guMfeZuT8DTlzSRPjDMIlUHJsv7rGatoD4BCEYUOs20mDoEkujjWeYoMAF6w/TIm/HukAFO71E2uIGysE77b9/1QbbYLtEF8f94k5mJliWS1sLQ1dGGHrw+mKVdJqB5oueDhJatF/29eEGLxiBOJACn291Xl1Vyfqj+le+7XX4qwvCRAVUySrkLFbVbf1B+lQHCaI4LFrqWsIGrjxk8bT7NRJQSCxi4tqRu96gn8nGFgetMkeryJrtB7G1/AYjBpvjq1VGAhbWWAWZB4fqdsvOPWDD2jBhLCRMWHSZ6cFERddfZScsenu4ksGnBZZ7Gd8zo/86HRakeHVJxwvprei3MW4P9xfR64+CoWAphhDPZivj/N7MBq8HmAva2cZHBajVR7DE+GenmyzcTFWpAwNO3WAcUJL3kGFW1eI4fUY2HPa0kDITdbJ1ryHDn//nTPbDwzWmK5xY71P1zP8kaBJawJ54bYdw/YCd/WNq9pNoknQ6WJu4RUdHBNroVOINZslIWWNWK93M9FVchNerNXaOytYHBD8bVfEhtVnlSzPU=
+matrix:
+  include:
+  - os: linux
+    services:
+    - docker
+    before_install:
+    - docker pull debian:latest
+    install:
+    - docker build --build-arg MAGICLEAP_ARG="$MAGICLEAP" -t exokit .
+    - docker run exokit cat exokit-linux-bin.tar.gz >exokit-linux-bin.tar.gz
+    - docker run exokit cat exokit-linux-full.tar.gz >exokit-linux-full.tar.gz
+    - docker run exokit cat exokit-linux.tar.gz >exokit-linux.tar.gz
+    deploy:
+    - provider: releases
+      api_key:
+        secure: OlejFsEjiEBzw44wFRlmQb3stF+PURu52AMogc1t4qu54x6YRxxk0NMlv3nzGlObo9JnOPMhAfISgDr8515jqvGEfFXcDzFOPIx42nyqVZe0I8UCA4cRbsV3EvvXtYfbwaXa9n65kk+RuEJEdtqEAWy9xYjiJGDhtkKv2khVDIVhrS6fbleHGanNcFlYsOzyf7ZWouFq4wIEX+ovNhe2hRZKRjzgKnFcPaKIzlG8qQF3WrdL0L4D2FE6xA4+lc56R2dKrpmvR9r32kRLS620apS0iFKOWwttgNiIf580RElmUGa+mTEi9Bob9pods0pcmLpWhhqRddPyi5G2PVgZG1FCaXdymwmS7FsNNo1sqvAmISuhcQrHNUMqmdYbpl7vvBHHmzXPIQjfxPU9zaPFEctW+wqmZUf+WuWJeZmQInCbUxe/bRS9OFQtRMiyzcdFvYfOtZg/Sv8/YeaihGff+n0k36Im3TPygsDLEaMBpTM4EXUd6TRk+631nUVQy/Z8WSzWwKWM2cCjRtMbKqDVy7M2vYBYQ1F9WlZidGUD5nYu1uNKsV7rfqpNsvagt7dQL8aJRQN0JgAKgRe8sKXUzl299JXTo+TdTUgqmkr4DoAoH6972JcdcT1mRK8B1oMjLFkB8oef9SbfOoBRKT17V65dZHTJEMhgKLQHrCpcbHE=
+      file: exokit-linux.tar.gz
+      body: Exokit git release
+      on:
+        repo: webmixedreality/exokit
+        tags: true
+      skip_cleanup: true
+    - provider: releases
+      api_key:
+        secure: OlejFsEjiEBzw44wFRlmQb3stF+PURu52AMogc1t4qu54x6YRxxk0NMlv3nzGlObo9JnOPMhAfISgDr8515jqvGEfFXcDzFOPIx42nyqVZe0I8UCA4cRbsV3EvvXtYfbwaXa9n65kk+RuEJEdtqEAWy9xYjiJGDhtkKv2khVDIVhrS6fbleHGanNcFlYsOzyf7ZWouFq4wIEX+ovNhe2hRZKRjzgKnFcPaKIzlG8qQF3WrdL0L4D2FE6xA4+lc56R2dKrpmvR9r32kRLS620apS0iFKOWwttgNiIf580RElmUGa+mTEi9Bob9pods0pcmLpWhhqRddPyi5G2PVgZG1FCaXdymwmS7FsNNo1sqvAmISuhcQrHNUMqmdYbpl7vvBHHmzXPIQjfxPU9zaPFEctW+wqmZUf+WuWJeZmQInCbUxe/bRS9OFQtRMiyzcdFvYfOtZg/Sv8/YeaihGff+n0k36Im3TPygsDLEaMBpTM4EXUd6TRk+631nUVQy/Z8WSzWwKWM2cCjRtMbKqDVy7M2vYBYQ1F9WlZidGUD5nYu1uNKsV7rfqpNsvagt7dQL8aJRQN0JgAKgRe8sKXUzl299JXTo+TdTUgqmkr4DoAoH6972JcdcT1mRK8B1oMjLFkB8oef9SbfOoBRKT17V65dZHTJEMhgKLQHrCpcbHE=
+      file: exokit-linux-bin.tar.gz
+      body: Exokit git release
+      on:
+        repo: webmixedreality/exokit
+        tags: true
+      skip_cleanup: true
+    - provider: releases
+      api_key:
+        secure: OlejFsEjiEBzw44wFRlmQb3stF+PURu52AMogc1t4qu54x6YRxxk0NMlv3nzGlObo9JnOPMhAfISgDr8515jqvGEfFXcDzFOPIx42nyqVZe0I8UCA4cRbsV3EvvXtYfbwaXa9n65kk+RuEJEdtqEAWy9xYjiJGDhtkKv2khVDIVhrS6fbleHGanNcFlYsOzyf7ZWouFq4wIEX+ovNhe2hRZKRjzgKnFcPaKIzlG8qQF3WrdL0L4D2FE6xA4+lc56R2dKrpmvR9r32kRLS620apS0iFKOWwttgNiIf580RElmUGa+mTEi9Bob9pods0pcmLpWhhqRddPyi5G2PVgZG1FCaXdymwmS7FsNNo1sqvAmISuhcQrHNUMqmdYbpl7vvBHHmzXPIQjfxPU9zaPFEctW+wqmZUf+WuWJeZmQInCbUxe/bRS9OFQtRMiyzcdFvYfOtZg/Sv8/YeaihGff+n0k36Im3TPygsDLEaMBpTM4EXUd6TRk+631nUVQy/Z8WSzWwKWM2cCjRtMbKqDVy7M2vYBYQ1F9WlZidGUD5nYu1uNKsV7rfqpNsvagt7dQL8aJRQN0JgAKgRe8sKXUzl299JXTo+TdTUgqmkr4DoAoH6972JcdcT1mRK8B1oMjLFkB8oef9SbfOoBRKT17V65dZHTJEMhgKLQHrCpcbHE=
+      file: exokit-linux-full.tar.gz
+      body: Exokit git release
+      on:
+        repo: webmixedreality/exokit
+        tags: true
+      skip_cleanup: true
+  - os: osx
+    osx_image: xcode9.2
+    before_install:
+    - brew install glfw glew
+    install:
+    - npm install -g appdmg
+    - curl "https://nodejs.org/dist/v10.6.0/node-v10.6.0-darwin-x64.tar.gz" >node.tar.gz
+    - tar -zxf node.tar.gz
+    - rm node.tar.gz
+    - mv node-v10.6.0-darwin-x64 node
+    - export PATH="$(pwd)/node/bin:$PATH"
+    - unset NVM_NODEJS_ORG_MIRROR
+    - "./node/bin/npm install"
+    - "./node/bin/npm run test:ci"
+    - install_name_tool -change '@rpath/OpenVR.framework/Versions/A/OpenVR' '@loader_path/../../node_modules/native-openvr-deps/bin/osx64/OpenVR.framework/Versions/A/OpenVR'
+      build/Release/exokit.node
+    - mkdir -p /tmp/Exokit.app/Contents/MacOS
+    - cp -R * /tmp/Exokit.app/Contents/MacOS
+    - cp Info.plist /tmp/Exokit.app/Contents
+    - tar -czf exokit-macos-full.tar.gz --exclude=".*" --exclude="*.tar.gz" *
+    - rm -R node
+    - tar -czf exokit-macos.tar.gz --exclude=".*" --exclude="*.tar.gz" *
+    - ./exokit-codesign-macos.sh
+    deploy:
+    - provider: releases
+      api_key:
+        secure: OlejFsEjiEBzw44wFRlmQb3stF+PURu52AMogc1t4qu54x6YRxxk0NMlv3nzGlObo9JnOPMhAfISgDr8515jqvGEfFXcDzFOPIx42nyqVZe0I8UCA4cRbsV3EvvXtYfbwaXa9n65kk+RuEJEdtqEAWy9xYjiJGDhtkKv2khVDIVhrS6fbleHGanNcFlYsOzyf7ZWouFq4wIEX+ovNhe2hRZKRjzgKnFcPaKIzlG8qQF3WrdL0L4D2FE6xA4+lc56R2dKrpmvR9r32kRLS620apS0iFKOWwttgNiIf580RElmUGa+mTEi9Bob9pods0pcmLpWhhqRddPyi5G2PVgZG1FCaXdymwmS7FsNNo1sqvAmISuhcQrHNUMqmdYbpl7vvBHHmzXPIQjfxPU9zaPFEctW+wqmZUf+WuWJeZmQInCbUxe/bRS9OFQtRMiyzcdFvYfOtZg/Sv8/YeaihGff+n0k36Im3TPygsDLEaMBpTM4EXUd6TRk+631nUVQy/Z8WSzWwKWM2cCjRtMbKqDVy7M2vYBYQ1F9WlZidGUD5nYu1uNKsV7rfqpNsvagt7dQL8aJRQN0JgAKgRe8sKXUzl299JXTo+TdTUgqmkr4DoAoH6972JcdcT1mRK8B1oMjLFkB8oef9SbfOoBRKT17V65dZHTJEMhgKLQHrCpcbHE=
+      file: exokit-macos.tar.gz
+      body: Exokit git release
+      on:
+        repo: webmixedreality/exokit
+        tags: true
+      skip_cleanup: true
+    - provider: releases
+      api_key:
+        secure: OlejFsEjiEBzw44wFRlmQb3stF+PURu52AMogc1t4qu54x6YRxxk0NMlv3nzGlObo9JnOPMhAfISgDr8515jqvGEfFXcDzFOPIx42nyqVZe0I8UCA4cRbsV3EvvXtYfbwaXa9n65kk+RuEJEdtqEAWy9xYjiJGDhtkKv2khVDIVhrS6fbleHGanNcFlYsOzyf7ZWouFq4wIEX+ovNhe2hRZKRjzgKnFcPaKIzlG8qQF3WrdL0L4D2FE6xA4+lc56R2dKrpmvR9r32kRLS620apS0iFKOWwttgNiIf580RElmUGa+mTEi9Bob9pods0pcmLpWhhqRddPyi5G2PVgZG1FCaXdymwmS7FsNNo1sqvAmISuhcQrHNUMqmdYbpl7vvBHHmzXPIQjfxPU9zaPFEctW+wqmZUf+WuWJeZmQInCbUxe/bRS9OFQtRMiyzcdFvYfOtZg/Sv8/YeaihGff+n0k36Im3TPygsDLEaMBpTM4EXUd6TRk+631nUVQy/Z8WSzWwKWM2cCjRtMbKqDVy7M2vYBYQ1F9WlZidGUD5nYu1uNKsV7rfqpNsvagt7dQL8aJRQN0JgAKgRe8sKXUzl299JXTo+TdTUgqmkr4DoAoH6972JcdcT1mRK8B1oMjLFkB8oef9SbfOoBRKT17V65dZHTJEMhgKLQHrCpcbHE=
+      file: exokit-macos-full.tar.gz
+      body: Exokit git release
+      on:
+        repo: webmixedreality/exokit
+        tags: true
+      skip_cleanup: true
+    - provider: releases
+      api_key:
+        secure: OlejFsEjiEBzw44wFRlmQb3stF+PURu52AMogc1t4qu54x6YRxxk0NMlv3nzGlObo9JnOPMhAfISgDr8515jqvGEfFXcDzFOPIx42nyqVZe0I8UCA4cRbsV3EvvXtYfbwaXa9n65kk+RuEJEdtqEAWy9xYjiJGDhtkKv2khVDIVhrS6fbleHGanNcFlYsOzyf7ZWouFq4wIEX+ovNhe2hRZKRjzgKnFcPaKIzlG8qQF3WrdL0L4D2FE6xA4+lc56R2dKrpmvR9r32kRLS620apS0iFKOWwttgNiIf580RElmUGa+mTEi9Bob9pods0pcmLpWhhqRddPyi5G2PVgZG1FCaXdymwmS7FsNNo1sqvAmISuhcQrHNUMqmdYbpl7vvBHHmzXPIQjfxPU9zaPFEctW+wqmZUf+WuWJeZmQInCbUxe/bRS9OFQtRMiyzcdFvYfOtZg/Sv8/YeaihGff+n0k36Im3TPygsDLEaMBpTM4EXUd6TRk+631nUVQy/Z8WSzWwKWM2cCjRtMbKqDVy7M2vYBYQ1F9WlZidGUD5nYu1uNKsV7rfqpNsvagt7dQL8aJRQN0JgAKgRe8sKXUzl299JXTo+TdTUgqmkr4DoAoH6972JcdcT1mRK8B1oMjLFkB8oef9SbfOoBRKT17V65dZHTJEMhgKLQHrCpcbHE=
+      file: exokit-macos-x64.dmg
+      body: Exokit macOS release
+      on:
+        repo: webmixedreality/exokit
+        tags: true
+      skip_cleanup: true
+notifications:
+  slack:
+    rooms:
+    - exokit:QzFMQYjtFRwrGm25iLOWxMTA#builds
+    on_success: change
+    on_failure: always
